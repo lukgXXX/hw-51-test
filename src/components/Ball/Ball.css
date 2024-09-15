@@ -1,0 +1,27 @@
+.balls-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.ball {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #3498db;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ball:nth-child(2) {
+    background-color: #e74c3c;
+}
+.ball:nth-child(3) {
+    background-color: #2ecc71;
+}
+.ball:nth-child(4) {
+    background-color: #f39c12;
+}
+.ball:nth-child(5) {
+    background-color: #9b59b6;
+}
